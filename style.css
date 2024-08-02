@@ -86,3 +86,71 @@ p {
     color: #0A0C13;
     font-weight: 400;
 }
+
+.input-group {
+    max-width: 448px;
+    width: 448px;
+    height: 56px;
+    
+}
+
+.question__form-box {
+    margin-top: 40px;
+}
+
+.form-control, .form-select {
+    border-radius: 0px 12px 12px 0 !important;
+    resize: none;
+}
+
+.form-control:focus, .form-select:focus {
+    box-shadow: none;
+    border-color: #E6E8EC;
+}
+
+.input-group-text {
+    width: 56px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 12px 0 0 12px !important;
+    background-color: #FCFCFD;
+    border-color: #E6E8EC;
+}
+
+.input-group-text--1 {
+    background-image: url(./images/Person.svg);
+}
+
+.input-group-text--2 {
+    background-image: url(./images/Tel.svg);
+}
+
+.form-floating>label {
+    left: 56px;
+    z-index: 20;
+}
+
+.input-group-text--3 {
+    background-image: url(./images/Shop.svg);
+}
+
+.input-group {
+    margin-bottom: 24px;
+}
+
+.form__btn {
+    width: 100%;
+    outline: none;
+    background-color: #EE1C25;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+    border: none;
+    gap: 8px;
+}
+
+.form__btn-text {
+    color: #FFFFFF;
+}
