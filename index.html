@@ -14,7 +14,8 @@
         rel="stylesheet">
 
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 
     <link rel="stylesheet" href="./main.css">
@@ -23,7 +24,7 @@
 </head>
 
 <body data-async-loaded="true" class="content-loaded body">
-    <header class="header">
+    <header class="header header--visible">
         <div class="container-main">
             <div class="row">
                 <div class="col">
@@ -117,21 +118,24 @@
         <div class="container-main">
             <div class="question__inner">
                 <h2 class="question__title">остались <span class="text-red">вопросы?</span></h2>
-                <p class="question__suptitle">Вы всегда можете связаться с нами через сайт или используя контакты ниже - мы любим общаться!</p>
+                <p class="question__suptitle">Вы всегда можете связаться с нами через сайт или используя контакты ниже -
+                    мы любим общаться!</p>
             </div>
             <div class="row question__form-box">
-                <div class="col-auto">
+                <div class="col-auto col__form">
                     <form action="">
                         <div class="input-group form-floating mb-3">
                             <span class="input-group-text input-group-text--1" id="basic-addon1"></span>
-                            <input type="text" class="form-control" id="floatingInput" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                            <input type="text" class="form-control" id="floatingInput" placeholder=""
+                                aria-label="Username" aria-describedby="basic-addon1">
                             <label class="form__lable" for="floatingInput">Имя</label>
                         </div>
                         <div class="input-group form-floating mb-3">
                             <span class="input-group-text input-group-text--2" id="basic-addon1"></span>
-                            <input type="text" class="form-control" id="floatingInput" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                            <input type="text" class="form-control" id="floatingInput" placeholder=""
+                                aria-label="Username" aria-describedby="basic-addon1">
                             <label class="form__lable" for="floatingInput">Телефон</label>
-                        </div>   
+                        </div>
                         <div class="input-group form-floating mb-3">
                             <span class="input-group-text input-group-text--3" id="basic-addon1"></span>
                             <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
@@ -141,33 +145,107 @@
                                 <option value="3">Three</option>
                             </select>
                             <label class="form__lable" for="floatingSelect">Что вас интересует?</label>
-                        </div>   
+                        </div>
                         <div class="input-group form-floating mb-3">
                             <span class="input-group-text input-group-text--1" id="basic-addon1"></span>
-                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                            <textarea class="form-control" placeholder="Leave a comment here"
+                                id="floatingTextarea"></textarea>
                             <label class="form__lable" for="floatingInput">Ваши пожелания (не обязательно)</label>
-                        </div>  
+                        </div>
                         <button class="form__btn">
                             <p class="form__btn-text">Отправить</p>
                             <img class="form__btn-img" src="./images/arrow.svg" alt="" srcset="">
-                        </button>     
+                        </button>
                         <div class="row form__section">
-                            <div class="col-auto">
-                                <div class="form-check">
-                                    <input type="checkbox" class="">
-                                    <label for=""></label>
-                                </div>
+                            <div class="col-auto col__checkbox">
+                                <input type="checkbox" id="checkbox" class="checkbox item__hidden">
+                                <label class="custom__checkbox" for="checkbox"></label>
                             </div>
-                            <div class="col"></div>
-                        </div>                  
+                            <div class="col">
+                                <p class="checkbox__text">
+                                    Я согласен на обработку Персональных данных и все такое в длинном длинном тексте о том как мы заботимся о вашей безопасности
+                                </p>
+                            </div>
+                        </div>
                     </form>
                 </div>
-                <div class="col"></div>
+                <div class="col">
+                    <iframe class="form__map" src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d181.92184702348044!2d131.90751047095762!3d43.15178817709162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e6!4m3!3m2!1d43.1517544!2d131.9076657!4m3!3m2!1d43.151759299999995!2d131.90769269999998!5e0!3m2!1sru!2sru!4v1722571504106!5m2!1sru!2sru"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
         </div>
     </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <footer class="footer">
+        <div class="container-main">
+            <div class="footer__inner">
+                <img class="footer__img" src="./images/Main Logo.svg" alt="" srcset="">
+                <div class="footer__items">
+                    <div class="footer__item">
+                        <h2 class="footer__title">Двери</h2>
+                        <div class="footer__links footer__links-flex">
+                            <div class="footer__links-left">
+                                <a href="" class="footer__link">Межкомнатные двери</a>
+                                <a href="" class="footer__link">Утепленные двери</a>
+                                <a href="" class="footer__link">Взрывостойкие двери</a>
+                                <a href="" class="footer__link">Межкомнатные двери</a>
+                                <a href="" class="footer__link">Утепленные двери</a>
+                                <a href="" class="footer__link">Взрывостойкие двери</a>
+                            </div>
+                            <div class="footer__links-right">
+                                <a href="" class="footer__link">Утепленные двери</a>
+                                <a href="" class="footer__link">Взрывостойкие двери</a>
+                                <a href="" class="footer__link">Межкомнатные двери</a>
+                                <a href="" class="footer__link">Утепленные двери</a>
+                                <a href="" class="footer__link">Взрывостойкие двери</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__item">
+                        <h2 class="footer__title">Услуги</h2>
+                        <div class="footer__links ">
+                            <a href="" class="footer__link">Отделка откосов</a>
+                            <a href="" class="footer__link">Установка дверей</a>
+                            <a href="" class="footer__link">Вызор замерщика</a>
+                        </div>
+                    </div>
+                    <div class="footer__item">
+                        <h2 class="footer__title">О компании</h2>
+                        <div class="footer__links ">
+                            <a href="" class="footer__link">Отзывы</a>
+                            <a href="" class="footer__link">Новости</a>
+                            <a href="" class="footer__link">Статьи</a>
+                            <a href="" class="footer__link">Вопрос-Ответ</a>
+                        </div>
+                    </div>
+                    <div class="footer__item">
+                        <h2 class="footer__title">Контакты</h2>
+                        <div class="footer__links ">
+                            <a href="tel:+74232336575" class="footer__link-tel">+7 (423) 233-65-75</a>
+                            <a href="" class="footer__link">Круглосуточно</a>
+                        </div>
+                        <div class="footer__images">
+                            <a href="/">
+                                <img src="./images/whts.svg" alt="" class="footer__img">
+                            </a>
+                            <a href="/">
+                                <img src="./images/tg.svg" alt="" class="footer__img">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__links footer__links-flex-foot">
+                    <a href="" class="footer__link--foot">© 2024 Cтальные и другие двери «Мистэр» </a>      
+                    <a href="" class="footer__link--foot">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+    <script src="./script.js"></script>
     <style>
         .styles-loader main {
             opacity: 1;
