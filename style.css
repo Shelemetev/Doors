@@ -154,11 +154,6 @@ p {
     background-image: url(./images/Tel.svg);
 }
 
-.form-floating>label {
-    left: 56px;
-    z-index: 20;
-}
-
 .input-group-text--3 {
     background-image: url(./images/Shop.svg);
 }
@@ -319,4 +314,9 @@ p {
 
 .footer__link--foot:hover {
     color: #EE1C25;
+}
+
+.form-floating>label {
+    left: 56px;
+    z-index: 20;
 }
