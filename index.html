@@ -6,18 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./normolize.css">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
-        rel="stylesheet">
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
 
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-
+    <link rel="stylesheet" href="./iconmoon/style.css">
     <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
@@ -48,8 +55,19 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-auto">
-                    <button class="header__btn">Заказать звонок</button>
+                <div class="col-auto header__flex">
+                    <div class="footer__links ">
+                        <a href="tel:+74232336575" class="footer__link-tel">+7 (423) 233-65-75</a>
+                        <a href="" class="footer__link">Круглосуточно</a>
+                    </div>
+                    <div class="footer__images">
+                        <a href="/">
+                            <img src="./images/whts.svg" alt="" class="footer__img">
+                        </a>
+                        <a href="/">
+                            <img src="./images/tg.svg" alt="" class="footer__img">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -113,6 +131,270 @@
             </div>
         </div>
     </main>
+
+    <section class="about">
+        <div class="container-main text-center">
+            <div class="about__inner">
+                <h2 class="about__title">Почему выбирают <span class="text-red">нас</span></h2>
+                <div class="about__items">
+                    <div class="about__item">
+                        <h3 class="about__item-title"><span class="text-red">2</span></h3>
+                        <p class="about__item-text">Завода</p>
+                    </div>
+                    <div class="about__item">
+                        <h3 class="about__item-title"><span class="text-red">1 200+</span></h3>
+                        <p class="about__item-text">Сотрудников <br> предприятия</p>
+                    </div>
+                    <div class="about__item">
+                        <h3 class="about__item-title"><span class="text-red">25 лет</span></h3>
+                        <p class="about__item-text">Лет в деле</p>
+                    </div>
+                    <div class="about__item">
+                        <h3 class="about__item-title"><span class="text-red">~400 000</span></h3>
+                        <p class="about__item-text">Дверей продано</p>
+                    </div>
+                    <div class="about__item">
+                        <h3 class="about__item-title"><span class="text-red">4 500+</span></h3>
+                        <p class="about__item-text">Точек продаж</p>
+                    </div>
+                    <div class="about__item">
+                        <h3 class="about__item-title"><span class="text-red">20+</span></h3>
+                        <p class="about__item-text">Складов по всей <br> России</p>
+                    </div>
+                </div>
+                <button class="about__btn">Заказать звонок</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="links">
+        <div class="container">
+            <div class="links__inner">
+                <a href="" class="links__link">termo</a>
+                <a href="" class="links__link">SNEGIR</a>
+                <a href="" class="links__link">SHWEDA</a>
+                <a href="" class="links__link">DIVISORIO</a>
+                <a href="" class="links__link">INVISIBLE</a>
+                <a href="" class="links__link">FORTIS</a>
+                <a href="" class="links__link">ELECTRA</a>
+                <a href="" class="links__link">AIR</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="assortment">
+        <div class="container">
+            <div class="assortment__inner">
+                <h2 class="assortment__title">широкий ассортимент <br> дверей <span class="text-red">для любых целей</span></h2>
+                <div class="assortment__items">
+                    <div class="assortment__item--img assortment__item--img-red">
+                        <a href="" class="assortment__item-btn">Популярные модели</a>
+                    </div>
+                    <a class="assortment__item">
+                        <img src="./images/Door.png" alt="" class="assortment__item-img">
+                        <p class="assortment__item-text">Дверь для дома</p>
+                        <h3 class="assortment__item-title">SNEGIR PRO-C MP</h3>
+                        <p class="assortment__item-price">от 25 000 ₽</p>
+                        <span class="assortment__item-block"></span>
+                    </a>
+                    <a class="assortment__item">
+                        <img src="./images/Door.png" alt="" class="assortment__item-img">
+                        <p class="assortment__item-text">Дверь для дома</p>
+                        <h3 class="assortment__item-title">SNEGIR PRO-C MP</h3>
+                        <p class="assortment__item-price">от 25 000 ₽</p>
+                        <span class="assortment__item-block"></span>
+                    </a>
+                    <a class="assortment__item">
+                        <img src="./images/Door.png" alt="" class="assortment__item-img">
+                        <p class="assortment__item-text">Дверь для дома</p>
+                        <h3 class="assortment__item-title">SNEGIR PRO-C MP</h3>
+                        <p class="assortment__item-price">от 25 000 ₽</p>
+                        <span class="assortment__item-block"></span>
+                    </a>
+                    <a class="assortment__item">
+                        <img src="./images/Door.png" alt="" class="assortment__item-img">
+                        <p class="assortment__item-text">Дверь для дома</p>
+                        <h3 class="assortment__item-title">SNEGIR PRO-C MP</h3>
+                        <p class="assortment__item-price">от 25 000 ₽</p>
+                        <span class="assortment__item-block"></span>
+                    </a>
+                    <a class="assortment__item">
+                        <img src="./images/Door.png" alt="" class="assortment__item-img">
+                        <p class="assortment__item-text">Дверь для дома</p>
+                        <h3 class="assortment__item-title">SNEGIR PRO-C MP</h3>
+                        <p class="assortment__item-price">от 25 000 ₽</p>
+                        <span class="assortment__item-block"></span>
+                    </a>
+                    <a class="assortment__item">
+                        <img src="./images/Door.png" alt="" class="assortment__item-img">
+                        <p class="assortment__item-text">Дверь для дома</p>
+                        <h3 class="assortment__item-title">SNEGIR PRO-C MP</h3>
+                        <p class="assortment__item-price">от 25 000 ₽</p>
+                        <span class="assortment__item-block"></span>
+                    </a>
+                    <div class="assortment__item--img assortment__item--img-blue">
+                        <a href="" class="assortment__item-btn">Двери для дома</a>
+                    </div>
+                    <div class="assortment__item--img assortment__item--img-green">
+                        <a href="" class="assortment__item-btn">Двери для дома</a>
+                    </div>
+                    <a class="assortment__item">
+                        <img src="./images/Door.png" alt="" class="assortment__item-img">
+                        <p class="assortment__item-text">Дверь для дома</p>
+                        <h3 class="assortment__item-title">SNEGIR PRO-C MP</h3>
+                        <p class="assortment__item-price">от 25 000 ₽</p>
+                        <span class="assortment__item-block"></span>
+                    </a>
+                    <a class="assortment__item">
+                        <img src="./images/Door.png" alt="" class="assortment__item-img">
+                        <p class="assortment__item-text">Дверь для дома</p>
+                        <h3 class="assortment__item-title">SNEGIR PRO-C MP</h3>
+                        <p class="assortment__item-price">от 25 000 ₽</p>
+                        <span class="assortment__item-block"></span>
+                    </a>
+                    <a class="assortment__item">
+                        <img src="./images/Door.png" alt="" class="assortment__item-img">
+                        <p class="assortment__item-text">Дверь для дома</p>
+                        <h3 class="assortment__item-title">SNEGIR PRO-C MP</h3>
+                        <p class="assortment__item-price">от 25 000 ₽</p>
+                        <span class="assortment__item-block"></span>
+                    </a>
+                    <a class="assortment__item">
+                        <img src="./images/Door.png" alt="" class="assortment__item-img">
+                        <p class="assortment__item-text">Дверь для дома</p>
+                        <h3 class="assortment__item-title">SNEGIR PRO-C MP</h3>
+                        <p class="assortment__item-price">от 25 000 ₽</p>
+                        <span class="assortment__item-block"></span>
+                    </a>
+                    <a class="assortment__item">
+                        <img src="./images/Door.png" alt="" class="assortment__item-img">
+                        <p class="assortment__item-text">Дверь для дома</p>
+                        <h3 class="assortment__item-title">SNEGIR PRO-C MP</h3>
+                        <p class="assortment__item-price">от 25 000 ₽</p>
+                        <span class="assortment__item-block"></span>
+                    </a>
+                    <a class="assortment__item">
+                        <img src="./images/Door.png" alt="" class="assortment__item-img">
+                        <p class="assortment__item-text">Дверь для дома</p>
+                        <h3 class="assortment__item-title">SNEGIR PRO-C MP</h3>
+                        <p class="assortment__item-price">от 25 000 ₽</p>
+                        <span class="assortment__item-block"></span>
+                    </a>
+                    <div class="assortment__item--img assortment__item--img-yellow">
+                        <a href="" class="assortment__item-btn">Двери для коттеджа</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="application">
+        <div class="container-main">
+            <div class="application__inner">
+                <div class="application__left">
+                    <h2 class="application__title">ОСТАЛИСЬ ВОПРОСЫ?</h2>
+                    <p class="application__text">Оставьте заявку и мы подберем именно для вас идеальную дверь и поможем с установкой!</p>
+                </div>
+                <div class="application__form" action="">
+                    <h2 class="application__form-title">Оставить заявку</h2>
+                    <div class="application__form-box">
+                        <div class="application__input-group">
+                            <h3 class="application__input-title">Имя</h3>
+                            <input type="text" placeholder="Введите имя" class="application__input">
+                        </div>
+                        <div class="application__input-group">
+                            <h3 class="application__input-title">Телефон (Обязательно)</h3>
+                            <input type="text" placeholder="+7" class="application__input">
+                        </div>
+                    </div>
+                    <div class="application__form-box">
+                        <h3 class="application__input-title">Какая дверь нужна?</h3>
+                    </div>
+                    <div class="application__form-box--noflex">
+                        <div class="row form__section-apl">
+                            <div class="col-auto col__checkbox">
+                                <input type="radio" id="radio-1" name="doors" class="checkbox item__hidden">
+                                <label class="custom__checkbox application__checkbox" for="radio-1"></label>
+                            </div>
+                            <div class="col">
+                                <p class="application__input-title">
+                                    Межкомнатные двери
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row form__section-apl">
+                            <div class="col-auto col__checkbox">
+                                <input type="radio" id="radio-2" name="doors" class="checkbox item__hidden">
+                                <label class="custom__checkbox application__checkbox" for="radio-2"></label>
+                            </div>
+                            <div class="col">
+                                <p class="application__input-title">
+                                    Двери для дома
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row form__section-apl">
+                            <div class="col-auto col__checkbox">
+                                <input type="radio" id="radio-3" name="doors" class="checkbox item__hidden">
+                                <label class="custom__checkbox application__checkbox" for="radio-3"></label>
+                            </div>
+                            <div class="col">
+                                <p class="application__input-title">
+                                    Двери для коттеджа
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="application__form-box">
+                        <div class="application__input-group">
+                            <h3 class="application__input-title">Идеальные представления о дизайне?</h3>
+                            <textarea type="text" placeholder="Введите текст сообщения" class="application__input application__textarea"></textarea>
+                        </div>
+                    </div>
+                    <div class="application__form-box">
+                        <div class="row form__section-apl">
+                            <div class="col-auto col__checkbox">
+                                <input type="radio" id="radio-4" name="konf" class="checkbox item__hidden">
+                                <label class="custom__checkbox application__checkbox--big" for="radio-4"></label>
+                            </div>
+                            <div class="col">
+                                <p class="application__input-suptext">
+                                    С <a class="link__blue" href="">правилами политики конфиденциальности</a> ознакомлен
+                                </p>
+                            </div>
+                        </div>
+                        <button class="application__form-btn">Отправить</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="works">
+        <div class="works__inner">
+            <h2 class="works__title">Галерея <span class="text-red">наших</span> работ</h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <img src="./images/Rectangle 12.png" alt="" class="swiper-slide">
+                    <img src="./images/Rectangle 13.png" alt="" class="swiper-slide">
+                    <img src="./images/Rectangle 14.png" alt="" class="swiper-slide">
+                    <img src="./images/Rectangle 15.png" alt="" class="swiper-slide">
+                    <img src="./images/Rectangle 12.png" alt="" class="swiper-slide">
+                    <img src="./images/Rectangle 13.png" alt="" class="swiper-slide">
+                    <img src="./images/Rectangle 14.png" alt="" class="swiper-slide">
+                    <img src="./images/Rectangle 15.png" alt="" class="swiper-slide">
+                    <img src="./images/Rectangle 12.png" alt="" class="swiper-slide">
+                    <img src="./images/Rectangle 13.png" alt="" class="swiper-slide">
+                    <img src="./images/Rectangle 14.png" alt="" class="swiper-slide">
+                    <img src="./images/Rectangle 15.png" alt="" class="swiper-slide">   
+                </div>
+            </div>
+            <div class="work__btns">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
 
     <section class="question">
         <div class="container-main">
@@ -244,6 +526,18 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script >
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 'auto',
+            loop: true,
+            spaceBetween: 35,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
     </script>
     <script src="./script.js"></script>
     <style>
