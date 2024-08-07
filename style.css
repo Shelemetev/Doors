@@ -1129,3 +1129,19 @@ h1,h2,h3 {
 .modal__text:not(:first-of-type) {
     margin-top: 12px;
 }
+
+.header__select {
+    position: relative;
+    padding-right: 20px;
+}
+
+.header__select::before {
+    font-family: 'icomoon' !important;
+    content: "\e902";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    font-size: 16px;
+    color: #FFFFFF !important;
+}
