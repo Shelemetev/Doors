@@ -834,7 +834,7 @@ h1,h2,h3 {
 
 .header__flex {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 30px;
 }
 
@@ -1144,4 +1144,53 @@ h1,h2,h3 {
     right: 0;
     font-size: 16px;
     color: #FFFFFF !important;
+}
+
+.header__text {
+    margin-top: 4px !important;
+}
+
+.header__text--number {
+    margin-top: 0 !important;
+}
+
+.header__links {
+    margin-top: 0px;
+}
+
+.header__images {
+    margin-top: 0;
+}
+
+.header--white {
+    background-color: #FFFFFF;
+    
+}
+
+.header--white .header__menu-text  {
+    color: #000000 !important;
+}
+
+.header--white .header__link-tel{
+    color: #000000 !important;
+}
+
+.header--white .header__select::before {
+    color: #0A0C13 !important;
+}
+
+.header__img {
+    fill: #000000;
+}
+
+.header__img--black{
+    display: none;
+}
+
+.header--white .header__img--black{
+    display: block;
+}
+
+.header--white .header__img{
+    display: none;
 }
