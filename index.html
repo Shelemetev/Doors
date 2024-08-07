@@ -34,7 +34,7 @@
     <header class="header header--visible">
         <div class="container-main">
             <div class="row">
-                <div class="col">
+                <div class="col col--img">
                     <a href="/">
                         <img src="./images/Main Logo.svg" alt="" srcset="">
                     </a>
@@ -73,7 +73,30 @@
         </div>
     </header>
 
-    <main class="main">
+    <section class="head">
+        <div class="swiper mySwiper-head">
+            <div class="swiper-wrapper">
+              <img src="./images/HeaderBack.jpg" class="swiper-slide head__swiper-slide" alt="">
+              <img src="./images/HeaderBack.jpg" class="swiper-slide head__swiper-slide" alt="">
+              <img src="./images/HeaderBack.jpg" class="swiper-slide head__swiper-slide" alt="">
+              <img src="./images/HeaderBack.jpg" class="swiper-slide head__swiper-slide" alt="">
+              <img src="./images/HeaderBack.jpg" class="swiper-slide head__swiper-slide" alt="">
+            </div>
+            <div class="swiper-pagination head__swiper-pagination"></div>
+        </div>
+        <div class="head__content">
+            <div class="container-main">
+                <div class="head__inner">
+                    <p class="head__text"><span class="text-red">13 лет</span> производим двери</p>
+                    <h1 class="head__title">Наши двери <br> в Вашем доме</h1>
+                    <p class="head__suptext">Межкомнатные двери на любой бюджет для вас <br> — изготовим и установим под ключ</p>
+                    <button class="head__btn">Сделать расчёт</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <main class="main">
         <div class="container-main">
             <h1 class="main__title">широкий ассортимент дверей <span class="text-red">для любых целей</span>
             </h1>
@@ -130,7 +153,62 @@
                 </a>
             </div>
         </div>
-    </main>
+    </main> -->
+
+    <section class="main">
+        <div class="container-main">
+            <div class="main__inner">
+                <div class="main__left">
+                    <p class="main__suptext">Хотите получить <span class="text-red">скидку?</span></p>
+                    <h2 class="main__title">Пройдите простой тест и рассчитайте свои двери</h2>
+                    <div class="main__selects">
+                        <span class="main__select main__select--active">В дом</span>
+                        <span class="main__select">В квартиру</span>
+                    </div>
+                    <p class="main__text main__text-1">Цвет отделки: графит</p>
+                    <div class="main__colors">
+                        <img src="./images/Ellipse 180.svg" alt="" class="main__color main__color-active">
+                        <img src="./images/Ellipse 180.svg" alt="" class="main__color">
+                        <img src="./images/Ellipse 181.svg" alt="" class="main__color">
+                        <img src="./images/Ellipse 182.svg" alt="" class="main__color">
+                        <img src="./images/Ellipse 183.svg" alt="" class="main__color">
+                    </div>
+                    <p class="main__text main__text-2">Цвет отделки: графит</p>
+                    <div class="main__doors">
+                        <img src="./images/image 3.png" alt="" class="main__door main__door-active">
+                        <img src="./images/image 3.png" alt="" class="main__door">
+                        <img src="./images/image 4.png" alt="" class="main__door">
+                        <img src="./images/image 5.png" alt="" class="main__door">
+                        <img src="./images/image 6.png" alt="" class="main__door">
+                    </div>
+                    <p class="main__count">Цена от 76 888 ₽</p>
+                    <div class="main__btns">
+                        <button class="main__btn main__btn-count">Сделать расчёт</button>
+                        <button class="main__btn main__btn-catalog">Смотреть в каталоге</button>
+                    </div>
+                </div>
+                <div class="main__right">
+                    <div class="main__right-inner">
+                        <div class="main__door-box">
+                            <img class="main__door-img" src="./images/Door!.png"></img>
+                            <h2 class="main__door-title">Снаружи</h2>
+                            <div class="modal-box">
+                                <img src="./images/Modal.svg" alt="" class="modal-img">
+                                <div class="modal-window">
+                                    <p class="modal__text">Названиие ручкии двери</p>
+                                    <p class="modal__text">6 888 ₽</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__door-box">
+                            <img class="main__door-img" src="./images/Door1.png"></img>
+                            <h2 class="main__door-title">Внутри</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="about">
         <div class="container-main text-center">
@@ -537,6 +615,16 @@
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
             },
+        });
+        var swiper = new Swiper(".mySwiper-head", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            speed: 3000
         });
     </script>
     <script src="./script.js"></script>
