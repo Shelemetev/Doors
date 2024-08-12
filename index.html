@@ -163,8 +163,12 @@
                     <p class="main__suptext">Хотите получить <span class="text-red">скидку?</span></p>
                     <h2 class="main__title">Пройдите простой тест и рассчитайте свои двери</h2>
                     <div class="main__selects">
-                        <span class="main__select main__select--active">В дом</span>
-                        <span class="main__select">В квартиру</span>
+                        <span class="main__select main__select-type main__select-type--active" value="home">В дом</span>
+                        <span class="main__select main__select-type" value="floor">В квартиру</span>
+                    </div>
+                    <div class="main__selects">
+                        <span class="main__select main__select-model main__select-model--active" value="out">Снаружи</span>
+                        <span class="main__select main__select-model" value="in">Внутри</span>
                     </div>
                     <p class="main__text main__text-1">Цвет отделки: графит</p>
                     <div class="main__colors">
@@ -190,7 +194,7 @@
                 </div>
                 <div class="main__right">
                     <div class="main__right-inner">
-                        <div class="main__door-box">
+                        <div class="main__door-box main__door-box--out">
                             <img class="main__door-img main__door-img--outside" src="./images/Door!.png" ></img>
                             <h2 class="main__door-title">Снаружи</h2>
                             <div class="modal-box">
@@ -201,8 +205,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="main__door-box">
-                            <img class="main__door-img" src="./images/Door1.png"></img>
+                        <div class="main__door-box main__door-box--in main__door-box--hidden">
+                            <img class="main__door-img main__door-img--inside" src="./images/Door1.png"></img>
                             <h2 class="main__door-title">Внутри</h2>
                         </div>
                     </div>

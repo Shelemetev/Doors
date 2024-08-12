@@ -988,9 +988,10 @@ h1,h2,h3 {
     border-radius: 12px;
     display: block;
     font-size: 16px;
+    cursor: pointer;
 }
 
-.main__select--active {
+.main__select-type--active{
     background-color: #EE1C25;
     color: #fff;
 }
@@ -1076,6 +1077,7 @@ h1,h2,h3 {
     background-color: #F5F5F5;
     padding: 40px 14px;
     border-radius: 24px;
+    width: 100%;
 }
 
 .main__right-inner {
@@ -1193,4 +1195,24 @@ h1,h2,h3 {
 
 .header--white .header__img{
     display: none;
+}
+
+.main__right-inner {
+    position: relative;
+}
+
+.main__door-box {
+    position: absolute;
+    left: 0;
+}
+
+.main__door-box--hidden {
+    left: 100%;
+    transform: translateX(-100%);
+    opacity: 0.1;
+}
+
+.main__select-model--active{
+    background-color: #EE1C25;
+    color: #FFFFFF;
 }
