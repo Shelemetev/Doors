@@ -1216,3 +1216,19 @@ h1,h2,h3 {
     background-color: #EE1C25;
     color: #FFFFFF;
 }
+
+.main__color-back {
+    width: 38px ;
+    height: 38px;
+    border-radius: 50%;
+}
+
+.main__color {
+    padding: 2px;
+    border-radius: 50%;
+}
+
+/* .main__door-img {
+    width: auto;
+    height: 566px;
+} */
