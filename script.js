@@ -73,7 +73,7 @@ let ReBack = (color,doors,type) => {
   } else if (color === 'RAL9005' && doors === "2" && type === "home") {
     outsideDoor.setAttribute('src', "https://img.termodver.ru/shweda/bqvwx/000020003000000280004f05-small.png")
   } else if (color === 'RAL5014' && doors === "2" && type === "home") {
-    outsideDoor.setAttribute('src', "https://img.termodver.ru/shweda/bqvwx/000020003000000280004f05-small.png")
+    outsideDoor.setAttribute('src', "https://img.termodver.ru/shweda/bqvwx/000020003000000280004d05-small.png")
   } else if (color === 'RAL3031' && doors === "2" && type === "home") {
     outsideDoor.setAttribute('src', "https://img.termodver.ru/shweda/bqvwx/000020003000000280004co5-small.png")
   } else if (color === 'RAL1018' && doors === "2" && type === "home") {
