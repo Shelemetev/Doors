@@ -1074,7 +1074,7 @@ h1,h2,h3 {
 }
 
 .main__right {
-    background-color: #F5F5F5;
+    /* background-color: #F5F5F5; */
     padding: 40px 14px;
     border-radius: 24px;
     width: 100%;
@@ -1251,4 +1251,10 @@ input::-webkit-inner-spin-button {
     /* display: none; <- Crashes Chrome on hover */
     -webkit-appearance: none;
     margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.application__form-btn {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
