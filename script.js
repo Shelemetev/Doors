@@ -61,55 +61,55 @@ const insideDoor = document.querySelector('.main__door-img--inside')
 let ReBack = (color,doors,type) => {
   console.log(color,doors);
   if (color === 'RAL9005' && doors === "1" && type === "home") {
-    outsideDoor.setAttribute('src', "https://img.termodver.ru/shweda/bqvwx/000020003000000280000f05-small.png")
+    outsideDoor.style.backgroundImage = "url('https://img.termodver.ru/shweda/bqvwx/000020003000000280000f05-small.png')"
   } else if (color === 'RAL5014' && doors === "1" && type === "home") {
-    outsideDoor.setAttribute('src', "https://img.termodver.ru/shweda/bqvwx/000020003000000280000d05-small.png")
+    outsideDoor.style.backgroundImage = "url('https://img.termodver.ru/shweda/bqvwx/000020003000000280000d05-small.png')"
   } else if (color === 'RAL3031' && doors === "1" && type === "home") {
-    outsideDoor.setAttribute('src', "https://img.termodver.ru/shweda/bqvwx/000020003000000280000co5-small.png")
+    outsideDoor.style.backgroundImage = "url('https://img.termodver.ru/shweda/bqvwx/000020003000000280000co5-small.png')"
   } else if (color === 'RAL1018' && doors === "1" && type === "home") {
-    outsideDoor.setAttribute('src', "https://img.termodver.ru/shweda/bqvwx/000020003000000280001205-small.png")
+    outsideDoor.style.backgroundImage = "url('https://img.termodver.ru/shweda/bqvwx/000020003000000280001205-small.png')"
   } else if (color === 'RAL7004' && doors === "1" && type === "home") {
-    outsideDoor.setAttribute('src', "https://img.termodver.ru/shweda/bqvwx/000020003000000280000f85-small.png")
+    outsideDoor.style.backgroundImage = "url('https://img.termodver.ru/shweda/bqvwx/000020003000000280000f85-small.png')"
   } else if (color === 'RAL9005' && doors === "2" && type === "home") {
-    outsideDoor.setAttribute('src', "https://img.termodver.ru/shweda/bqvwx/000020003000000280004f05-small.png")
+    outsideDoor.style.backgroundImage = "url('https://img.termodver.ru/shweda/bqvwx/000020003000000280004f05-small.png')"
   } else if (color === 'RAL5014' && doors === "2" && type === "home") {
-    outsideDoor.setAttribute('src', "https://img.termodver.ru/shweda/bqvwx/000020003000000280004d05-small.png")
+    outsideDoor.style.backgroundImage = "url('https://img.termodver.ru/shweda/bqvwx/000020003000000280004d05-small.png')"
   } else if (color === 'RAL3031' && doors === "2" && type === "home") {
-    outsideDoor.setAttribute('src', "https://img.termodver.ru/shweda/bqvwx/000020003000000280004co5-small.png")
+    outsideDoor.style.backgroundImage = "url('https://img.termodver.ru/shweda/bqvwx/000020003000000280004co5-small.png')"
   } else if (color === 'RAL1018' && doors === "2" && type === "home") {
-    outsideDoor.setAttribute('src', "https://img.termodver.ru/shweda/bqvwx/000020003000000280005205-small.png")
+    outsideDoor.style.backgroundImage = "url('https://img.termodver.ru/shweda/bqvwx/000020003000000280005205-small.png')"
   } else if (color === 'RAL7004' && doors === "2" && type === "home") {
-    outsideDoor.setAttribute('src', "https://img.termodver.ru/shweda/bqvwx/000020003000000280004f85-small.png")
+    outsideDoor.style.backgroundImage = "url('https://img.termodver.ru/shweda/bqvwx/000020003000000280004f85-small.png')"
   } else if (color === 'RAL9005' && doors === "3" && type === "home") {
-    outsideDoor.setAttribute('src', "https://img.termodver.ru/shweda/bqvwx/000020003000000280006f05-small.png")
+    outsideDoor.style.backgroundImage = "url('https://img.termodver.ru/shweda/bqvwx/000020003000000280006f05-small.png')"
   } else if (color === 'RAL5014' && doors === "3" && type === "home") {
-    outsideDoor.setAttribute('src', "https://img.termodver.ru/shweda/bqvwx/000020003000000280006d05-small.png")
+    outsideDoor.style.backgroundImage = "url('https://img.termodver.ru/shweda/bqvwx/000020003000000280006d05-small.png')"
   } else if (color === 'RAL3031' && doors === "3" && type === "home") {
-    outsideDoor.setAttribute('src', "https://img.termodver.ru/shweda/bqvwx/000020003000000280006co5-small.png")
+    outsideDoor.style.backgroundImage = "url('https://img.termodver.ru/shweda/bqvwx/000020003000000280006co5-small.png')"
   } else if (color === 'RAL1018' && doors === "3" && type === "home") {
-    outsideDoor.setAttribute('src', "https://img.termodver.ru/shweda/bqvwx/000020003000000280007205-small.png")
+    outsideDoor.style.backgroundImage = "url('https://img.termodver.ru/shweda/bqvwx/000020003000000280007205-small.png')"
   } else if (color === 'RAL7004' && doors === "3" && type === "home") {
-    outsideDoor.setAttribute('src', "https://img.termodver.ru/shweda/bqvwx/000020003000000280006f85-small.png")
+    outsideDoor.style.backgroundImage = "url('https://img.termodver.ru/shweda/bqvwx/000020003000000280006f85-small.png')"
   } else if (color === 'RAL9005' && doors === "4" && type === "home") {
-    outsideDoor.setAttribute('src', "https://img.termodver.ru/shweda/bqvwx/00002000300000028000af05-small.png")
+    outsideDoor.style.backgroundImage = "url('https://img.termodver.ru/shweda/bqvwx/00002000300000028000af05-small.png')"
   } else if (color === 'RAL5014' && doors === "4" && type === "home") {
-    outsideDoor.setAttribute('src', "https://img.termodver.ru/shweda/bqvwx/00002000300000028000ad05-small.png")
+    outsideDoor.style.backgroundImage = "url('https://img.termodver.ru/shweda/bqvwx/00002000300000028000ad05-small.png')"
   } else if (color === 'RAL3031' && doors === "4" && type === "home") {
-    outsideDoor.setAttribute('src', "https://img.termodver.ru/shweda/bqvwx/00002000300000028000aco5-small.png")
+    outsideDoor.style.backgroundImage = "url('https://img.termodver.ru/shweda/bqvwx/00002000300000028000aco5-small.png')"
   } else if (color === 'RAL1018' && doors === "4" && type === "home") {
-    outsideDoor.setAttribute('src', "https://img.termodver.ru/shweda/bqvwx/00002000300000028000b205-small.png")
+    outsideDoor.style.backgroundImage = "url('https://img.termodver.ru/shweda/bqvwx/00002000300000028000b205-small.png')"
   } else if (color === 'RAL7004' && doors === "4" && type === "home") {
-    outsideDoor.setAttribute('src', "https://img.termodver.ru/shweda/bqvwx/00002000300000028000af85-small.png")
+    outsideDoor.style.backgroundImage = "url('https://img.termodver.ru/shweda/bqvwx/00002000300000028000af85-small.png')"
   } else if (color === 'RAL9005' && doors === "5" && type === "home") {
-    outsideDoor.setAttribute('src', "https://img.termodver.ru/shweda/bqvwx/00002000300000028001cf05-small.png")
+    outsideDoor.style.backgroundImage = "url('https://img.termodver.ru/shweda/bqvwx/00002000300000028001cf05-small.png')"
   } else if (color === 'RAL5014' && doors === "5" && type === "home") {
-    outsideDoor.setAttribute('src', "https://img.termodver.ru/shweda/bqvwx/00002000300000028001cd05-small.png")
+    outsideDoor.style.backgroundImage = "url('https://img.termodver.ru/shweda/bqvwx/00002000300000028001cd05-small.png')"
   } else if (color === 'RAL3031' && doors === "5" && type === "home") {
-    outsideDoor.setAttribute('src', "https://img.termodver.ru/shweda/bqvwx/00002000300000028001cco5-small.png")
+    outsideDoor.style.backgroundImage = "url('https://img.termodver.ru/shweda/bqvwx/00002000300000028001cco5-small.png')"
   } else if (color === 'RAL1018' && doors === "5" && type === "home") {
-    outsideDoor.setAttribute('src', "https://img.termodver.ru/shweda/bqvwx/00002000300000028001d205-small.png")
+    outsideDoor.style.backgroundImage = "url('https://img.termodver.ru/shweda/bqvwx/00002000300000028001d205-small.png')"
   } else if (color === 'RAL7004' && doors === "5" && type === "home") {
-    outsideDoor.setAttribute('src', "https://img.termodver.ru/shweda/bqvwx/00002000300000028001cf85-small.png")
+    outsideDoor.style.backgroundImage = "url('https://img.termodver.ru/shweda/bqvwx/00002000300000028001cf85-small.png')"
   }
 }
 
