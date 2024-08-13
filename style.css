@@ -366,7 +366,7 @@ h1,h2,h3 {
 .about__item-title {
     font-size: 46px;
     font-weight: 600;
-    text-align: left;
+    text-align: center;
 }
 
 .about__item-text {
@@ -381,7 +381,7 @@ h1,h2,h3 {
     border-radius: 12px;
     background-color: #1E1E1EE0;
     border: 1px solid #000000;
-    padding: 8px 16px;
+    padding: 16px 32px;
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 500;
