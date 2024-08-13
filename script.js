@@ -33,7 +33,7 @@ window.addEventListener('scroll', () => {
 window.addEventListener('DOMContentLoaded', () => {
   let posTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
   console.log(posTop);
-  if (posTop > 750) {
+  if (posTop > 100) {
     header.classList.add('header--white')
   } else {
     header.classList.remove('header--white')
