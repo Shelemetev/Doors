@@ -1258,3 +1258,66 @@ input::-webkit-inner-spin-button {
     left: 50%;
     transform: translateX(-50%);
 }
+
+.advantage__inner {
+    padding: 128px 176px;
+    background-color: #2E2E3A;
+    border-radius: 24px;
+    position: relative;
+}
+
+.advantage__inner::before {
+    position: absolute;
+    content: " ";
+    background-image: url(./images/Group\ 1.svg);
+    width: 106px;
+    height: 106px;
+    left: 126px;
+    top: 80px;
+}
+
+.advantage__title {
+    font-size: 36px;
+    font-weight: 500;
+    text-align: left;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.advantage__box {
+    display: flex;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.advantage__box-right {
+    width: 675px;
+}
+
+.advantage__text {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.advantage__btn {
+    background-color: #EE1C25;
+    padding: 8px 40px 8px 32px;
+    border-radius: 12px;
+    margin-top: 24px;
+    outline: none;
+    border: none;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.advantage__btn::before {
+    position: absolute;
+    /* width: 100%;
+    height: 100%; */
+    content: "\e901";
+    font-family: 'icomoon' !important;
+    right: 20px;
+    font-size: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+}
